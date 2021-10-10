@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        body {
+            background-image: url(https://img.freepik.com/free-photo/soft-cloudy-is-gradient-pastel-abstract-sky-background-sweet-color_6529-1863.jpg?size=626&ext=jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        h1 {
+            color: rgb(252, 8, 8);
+            font-size: 60px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1:hover {
+            color: rgb(253, 137, 137);
+        }
+        .box {
+            border: 20px;
+            border-style: groove;
+            border-color: rgb(167, 250, 167);
+            padding-left: 30px;
+            padding-right: 30px;
+            margin: 50px 170px 50px 170px;
+            background-color: rgb(251, 252, 217);
+        }
+        .content {
+            font-size: xx-large;
+            color: rgb(17, 0, 255);
+            border: 5px;
+            border-style: solid;
+            border-color: darkturquoise;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: cyan;
+        }
+        .content:hover {
+            color: rgb(50, 114, 252);
+        }
+        img {
+            height: 300px;
+            width: 650px;
+            border: 5px;
+            border-style: ridge;
+            border-color: blueviolet;
+        }
+        .example {
+            font-size: 45px;
+            color: rgb(252, 50, 144);
+        }
+        .example:hover {
+            color: rgb(148, 7, 73);
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1><strong><em>BOX &nbspMODEL</em></strong></h1>
+        <div class="box">
+            <p class="content">The CSS box model is essentially a box that wraps around every HTML element. It talks about design and layout. It consists of: margins, borders, padding, and the actual content.</p>
+            <p class="content">Content - It is the area where text and images appear.</p>
+            <p class="content">Padding - It clears an area around the content. It is transparent.</p>
+            <p class="content">Border - It is a border around the padding and content.</p>
+            <p class="content">Margin - It clears an area outside the border. It is transparent.</p>
+        </div>
+        <div>
+            <span class="example">Box Model Layout</span>
+            <br><br>
+            <img src="https://media.gcflearnfree.org/content/5ef2084faaf0ac46dc9c10be_06_23_2020/box_model.png" alt="This is a picture of box model layout.">
+        </div>
+    </center>
+</body>
+</html>
